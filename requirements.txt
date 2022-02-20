@@ -1,0 +1,7 @@
+altgraph==0.17.2
+importlib-metadata==4.11.1
+numpy==1.21.5
+pyinstaller==4.9
+pyinstaller-hooks-contrib==2022.2
+typing_extensions==4.1.1
+zipp==3.7.0

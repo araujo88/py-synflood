@@ -5,7 +5,7 @@ from utils import *
 import random
 import ctypes
 
-def send_packet(dest_ip, port, user_data):
+def send_packet(dest_ip, port, user_data, sleep_interval):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_RAW)
     except(socket.error):
@@ -85,4 +85,4 @@ def send_packet(dest_ip, port, user_data):
         print('Sending packet...')
         s.sendto(packet, (dest_ip , 0 ))
         print('Packet sent!')
-        time.sleep(1)
+        time.sleep(sleep_interval)
