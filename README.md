@@ -26,7 +26,7 @@ SYN flood denial-of-service (DoS) attack coded in Python
 
 ## Usage
 
-`sudo py-synflood <ip_address> <port_numer> <max_threads> <payload> <sleep_interval>`
+`sudo py-synflood <ip_address> <port_number> <max_threads> <payload> <sleep_interval>`
 
 ## Example
 
